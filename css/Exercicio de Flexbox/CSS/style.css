@@ -1,0 +1,11 @@
+nav{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: green;
+    padding: 14px 20px;
+}
+

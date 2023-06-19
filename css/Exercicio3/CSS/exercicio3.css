@@ -1,0 +1,58 @@
+.header{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+}
+
+main{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+}
+
+.caixa1, .caixa2, .caixa3{
+    width: 100%;
+    
+} 
+
+.caixa1{
+    background-color: greenyellow;
+}
+
+.caixa2{
+    background-color: black;
+
+}
+
+.caixa3{
+background-color: rgb(97, 138, 36);
+
+}
+
+.footer{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+}
+
+@media (max-width: 700px) {
+    main{
+        flex-direction: column;
+    }
+
+    .caixa1{
+        background-color: greenyellow;
+        height: 500px;
+    }
+    
+    .caixa2{
+        background-color: black;
+        height: 500px;
+    }
+    
+    .caixa3{
+        background-color: rgb(97, 138, 36);
+        height: 500px;
+    }
+    
+}

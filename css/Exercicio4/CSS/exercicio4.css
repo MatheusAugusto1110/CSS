@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: aqua;
+    width: 90%;
+    height: 75px;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    background-color: green;
+    height: 500px;
+    width: 548px;
+}
+
+.coluna1{
+    flex-direction: column;
+}
+
+.coluna2{
+
+flex-direction: column;
+
+}
+
+.sidbar{
+    height: 400px;
+    width: 350px;
+    border: 1px;
+    background-color: yellow;
+}
+
+.estra{
+    background-color: peru;
+
+}
+
+.hero{
+    height: 150px;
+    width: 548px;
+    border: 1px;
+    background-color: red;
+}
+
+.imagens{
+    margin-top: 10px;
+}
+
+.c-extra{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens{
+    height: 150px;
+    width: 525px;
+    background-color: purple;
+    margin-left: 48px;
+}
+
+.post{
+    height: 150px;
+    width: 377px;
+    background-color: darkslategray;
+}
+
+.final{
+    margin-top: 10px;
+    display: flex;
+}
+
+footer{
+    background-color: orangered;
+    width: 90%;
+    height: 75px;
+    margin: auto;
+}

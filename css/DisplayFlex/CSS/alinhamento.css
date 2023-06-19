@@ -1,0 +1,22 @@
+.caixa2 > div{
+    background-color: #fff;
+    font-family: sans-serif;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.caixa2{
+    align-items: center;
+    background-color: blue;
+    height: 200px;
+    justify-content: center;
+    width: 900px;
+    display: flex;
+}
+
+
+
+    
+
